@@ -1,0 +1,55 @@
+.rm__prompt-text {
+    color: #9CF299;
+    text-align: center;
+    font-family: var(--font-normal);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10%;
+}
+
+.rm__prompt-choices {
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.rm__prompt-choices button {
+    width: 424px;
+    height: 125px;
+}
+
+.rm__prompt-choices button:disabled {
+    background: #d07423;
+    transform: none;
+    box-shadow: none;
+}
+.rm__prompt-choices button:disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.rm__prompt-choices h1 {
+    width: 424px;
+    height: 125px;
+    text-align: center;
+    font-family: var(--font-normal);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: -20%;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.rm__prompt-choices h2 {
+    color: #AA5F1D;
+    font-family: var(--font-normal);
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: none;
+    letter-spacing: 0;
+}

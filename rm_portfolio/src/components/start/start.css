@@ -1,0 +1,25 @@
+.rm__start button{
+    width: 424px;
+    height: 156.535px;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #F28729;
+    box-shadow: 0px 7px 14px 2px rgba(0, 0, 0, 0.47);
+    margin-top: 10%;
+    
+    /*---text---*/
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-normal);
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 7.125px;
+    text-transform: uppercase;
+}
+
+.rm__start button:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
