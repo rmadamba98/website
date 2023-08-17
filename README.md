@@ -2,7 +2,7 @@
 
 UX Design and Front-End Development by Ryan Madamba
 
-***This is my most current project, so please appreciate the beauty of the journey***
+***This is my most current project, so please appreciate the beauty of the journey -RM 8/17/23***
 
 ## Gamified Portfolio Website Exploration
 
