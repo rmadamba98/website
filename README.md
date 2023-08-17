@@ -1,6 +1,7 @@
 # Ryan Madamba's Portfolio
 
 UX Design and Front-End Development by Ryan Madamba
+
 ***This is my most current project, so please appreciate the beauty of the journey***
 
 ## Gamified Portfolio Website Exploration
