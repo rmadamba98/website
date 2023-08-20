@@ -1,11 +1,14 @@
 import React from "react";
 import "./navbar.css";
 import NavComp from "../navcomp/NavComp";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
     const navComponents = (
         <React.Fragment>
-            <NavComp name="Menu" />
+            <Link to="/">
+                <NavComp name="Menu" />
+            </Link>
             <NavComp name="RMADAMBA" />
         </React.Fragment>
     );
