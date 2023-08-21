@@ -18,10 +18,10 @@ function Project(props) {
                 <div className="rm__project-body-text">{props.desc}</div>
                 <div className="rm__project-body-skills">{props.skills}</div>
                 <div className="rm__project-body-links">
-                    <a href={props.url1} target="_blank">
+                    <a href={props.url1}>
                         <button>{props.link1}</button>
                     </a>
-                    <a href={props.url2} target="_blank">
+                    <a href={props.url2}>
                         <button>{props.link2}</button>
                     </a>
                 </div>
