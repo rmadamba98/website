@@ -1,8 +1,5 @@
 import "./App.css";
-import { NavBar } from "./components";
 import Start from "./components/start/Start";
-import { First } from "./containers";
-import { Route, Router, Routes } from "react-router-dom";
 
 function App() {
     return (
