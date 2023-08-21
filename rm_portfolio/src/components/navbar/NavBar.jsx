@@ -4,14 +4,14 @@ import NavComp from "../navcomp/NavComp";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-    const navComponents = (
-        <React.Fragment>
+    const navComponents = {
+        /*<React.Fragment>
             <Link to="/">
                 <NavComp name="Menu" />
             </Link>
             <NavComp name="RMADAMBA" />
-        </React.Fragment>
-    );
+    </React.Fragment>*/
+    };
     return <div className="rm__navbar">{navComponents}</div>;
 };
 
