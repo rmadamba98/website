@@ -1,0 +1,7 @@
+.rm__about img{ 
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    max-height: 430px;
+    margin-right: 1%;
+}

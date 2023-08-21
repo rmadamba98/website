@@ -10,12 +10,20 @@ function Project(props) {
                     <h1>{props.title}</h1>
                     <h2>{props.subtitle}</h2>
                 </div>
-                <div className="rm__project-body-image">{props.photo}</div>
+                <div className="rm__project-body-image">
+                    {props.photo2}
+                    {props.photo}
+                    {props.photo3}
+                </div>
                 <div className="rm__project-body-text">{props.desc}</div>
                 <div className="rm__project-body-skills">{props.skills}</div>
                 <div className="rm__project-body-links">
-                    <button>{props.link1}</button>
-                    <button>{props.link2}</button>
+                    <a href={props.url1} target="_blank">
+                        <button>{props.link1}</button>
+                    </a>
+                    <a href={props.url2} target="_blank">
+                        <button>{props.link2}</button>
+                    </a>
                 </div>
             </div>
             <div className="rm__project-footer">{props.prompt}</div>

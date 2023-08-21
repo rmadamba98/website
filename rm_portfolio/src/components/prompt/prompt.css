@@ -7,6 +7,7 @@
     font-weight: 600;
     line-height: normal;
     margin-top: 10%;
+    padding-bottom: 2%;
 }
 
 .rm__prompt-choices {
@@ -16,7 +17,7 @@
 
 .rm__prompt-choices button {
     width: 424px;
-    height: 125px;
+    height: 125px;    
 }
 
 .rm__prompt-choices button:disabled {
@@ -31,7 +32,7 @@
 
 .rm__prompt-choices h1 {
     width: 424px;
-    height: 125px;
+    height: 100px;
     text-align: center;
     font-family: var(--font-normal);
     font-size: 32px;
@@ -52,4 +53,5 @@
     line-height: normal;
     text-transform: none;
     letter-spacing: 0;
+    
 }
