@@ -3,3 +3,7 @@ export { default as CSC } from "./csc/CSC";
 export { default as Second } from "./second/Second";
 export { default as About } from "./about/About";
 export { default as APrompt } from "./aprompt/APrompt";
+export { default as Easel } from "./easel/Easel";
+export { default as FliptEd } from "./flipted/FliptEd";
+export { default as CPrompt } from "./cprompt/CPrompt";
+export { default as FPrompt } from "./fprompt/FPrompt";

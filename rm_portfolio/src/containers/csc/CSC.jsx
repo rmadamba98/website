@@ -2,12 +2,13 @@ import React from "react";
 import "./csc.css";
 import { Project } from "../../components";
 import csc from "../../assets/csc.png";
+import CPrompt from "../cprompt/CPrompt";
 
 const CSC = () => {
     return (
         <div className="rm__csc">
             <Project
-                text="Oh! You know Ryan, that’s great. Have you seen his most recent project?"
+                text="Have you seen Ryan's most recent project?"
                 title="Website Redesign"
                 subtitle="Center for Supportive Communities"
                 photo=<img src={csc} alt="csc"></img>
@@ -17,6 +18,7 @@ const CSC = () => {
                 url1="https://github.com/rmadamba98/csc_web"
                 link2="Figma"
                 url2="https://tinyurl.com/4682cp7d"
+                prompt=<CPrompt />
             />
         </div>
     );
