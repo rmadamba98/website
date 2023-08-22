@@ -25,7 +25,7 @@ const About = () => {
                     that keep the front-end landscape ever-evolving."
                 skills="HOBBIES: Bouldering, Hiking, Music Festivals, Trying New Food"
                 link1="Resume"
-                url1="https://tinyurl.com/3n7uhvp7"
+                url1="https://tinyurl.com/59xsmdvk"
                 link2="GitHub"
                 url2="https://github.com/rmadamba98"
                 prompt=<APrompt />

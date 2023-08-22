@@ -10,7 +10,7 @@ const FliptEd = () => {
             <Project
                 text="Here's one of Ryan's Web-Based Applications:"
                 title="Learning Management System"
-                subtitle="Flipt.Ed"
+                subtitle="flipt.Ed"
                 photo=<img src={flipted} alt="flipted"></img>
                 desc="flipt.Ed is a web-based learning management system based on gamification and mastery learning. 
                     flipt.Ed seeks to incorporate modern educational strategies into a learning platform for schools. 

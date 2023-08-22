@@ -6,13 +6,14 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-top: 10%;
+    margin-top: 5%;
     padding-bottom: 2%;
 }
 
 .rm__prompt-choices {
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;   
+    margin-bottom: 10%; 
 }
 
 .rm__prompt-choices button {
