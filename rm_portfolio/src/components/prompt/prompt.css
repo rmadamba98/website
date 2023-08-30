@@ -1,58 +1,97 @@
-.rm__prompt-text {
-    color: #9CF299;
-    text-align: center;
-    font-family: var(--font-normal);
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-top: 15%;
-    padding-bottom: 2%;
+.rm__prompt {
+    background: #F2DABD;
+    width: 100%;
 }
 
-.rm__prompt-choices {
-    display: flex;
-    justify-content: space-evenly;   
-    margin-bottom: 20%; 
+.rm__prompt img {
+    outline: none;
+        box-shadow: none;
+}
+
+.rm__prompt img:hover {
+    box-shadow: none;
+}
+
+.rm__prompt-text {
+    color: #591E08;
+    font-family: var(--font-bold);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 12%;
+}
+
+.rm__prompt-choices { 
+    margin-left: 10%;
+    padding-bottom: 30%;
 }
 
 .rm__prompt-choices button {
-    width: 424px;
-    height: 125px;    
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .rm__prompt-choices button:disabled {
-    background: #d07423;
-    transform: none;
-    box-shadow: none;
 }
-.rm__prompt-choices button:disabled:hover {
-    transform: none;
-    box-shadow: none;
+
+
+.rm__prompt-choices-L :hover, .rm__prompt-choices-R :hover {
+    text-decoration: underline;
+    color: #818C5A;
+}
+
+.rm__prompt-choices-L,
+.rm__prompt-choices-R {
+    margin-top: 2%;
 }
 
 .rm__prompt-choices h1 {
-    width: 424px;
-    height: 100px;
-    text-align: center;
+    color: #8C441B;
     font-family: var(--font-normal);
-    font-size: 32px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    margin-bottom: -20%;
-    text-transform: none;
-    letter-spacing: 0;
+    display: inline;
 }
 
 .rm__prompt-choices h2 {
-    color: #AA5F1D;
+    color: #8C441B;
     font-family: var(--font-normal);
-    font-size: 32px;
+    font-size: 16px;
     font-style: italic;
     font-weight: 600;
     line-height: normal;
     text-transform: none;
     letter-spacing: 0;
+    display: inline;
+    padding-left: 1rem;
+}
+
+.rm__prompt-intro {
+    color: #591E08;
+    font-family: var(--font-bold);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: -20%;
+}
+
+.rm__prompt-arrow {
+    margin-top: 13%;
+    margin-left: 47.5%;
+    margin-bottom: 2%;
     
+}
+
+.rm__prompt-project {
+    background: #fff;
 }

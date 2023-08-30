@@ -1,14 +1,28 @@
 import React, { useState } from "react";
 import "./prompt.css";
+import arrow from "../../assets/arrow.png";
 
 function Prompt(props) {
-    const [projState, setProjState] = useState({ proj: <></> });
+    const [projState, setProjState] = useState({
+        proj: <></>,
+        intro: <></>,
+        arrow: <></>,
+    });
+
     const renderProj1 = () => {
-        setProjState({ proj: props.proj1 });
+        setProjState({
+            proj: props.proj1,
+            intro: props.intro1,
+            arrow: <img src={arrow} alt="arrow"></img>,
+        });
     };
 
     const renderProj2 = () => {
-        setProjState({ proj: props.proj2 });
+        setProjState({
+            proj: props.proj2,
+            intro: props.intro2,
+            arrow: <img src={arrow} alt="arrow"></img>,
+        });
     };
 
     const disableBtn1 = () => {
@@ -53,8 +67,10 @@ function Prompt(props) {
                     disableBtn2();
                 }}
             >
-                <h1>{props.c1}</h1>
-                <h2>{props.desc1}</h2>
+                <div className="text">
+                    <h1>{props.c1}</h1>
+                    <h2>{props.desc1}</h2>
+                </div>
             </button>
         ),
         button2: (
@@ -64,8 +80,10 @@ function Prompt(props) {
                     disableBtn1();
                 }}
             >
-                <h1>{props.c2}</h1>
-                <h2>{props.desc2}</h2>
+                <div className="text">
+                    <h1>{props.c2}</h1>
+                    <h2>{props.desc2}</h2>
+                </div>
             </button>
         ),
     });
@@ -77,6 +95,8 @@ function Prompt(props) {
                 <div className="rm__prompt-choices-L">{btnState.button1}</div>
                 <div className="rm__prompt-choices-R">{btnState.button2}</div>
             </div>
+            <div className="rm__prompt-intro">{projState.intro}</div>
+            <div className="rm__prompt-arrow">{projState.arrow}</div>
             <div className="rm__prompt-project">{projState.proj}</div>
         </div>
     );

@@ -17,7 +17,7 @@ const FliptEd = () => {
                     These strategies chiefly include the concepts of gamification and mastery learning.
 ​                    Our application focuses on the student side of flipt.ED, providing a way for students to access 
                     and complete course content, and track their progress."
-                skills="React, JavaScript, CSS, HTML, GraphQL API"
+                skills="SKILLS USED: React, JavaScript, CSS, HTML, GraphQL API"
                 link1="GitHub"
                 url1="https://github.com/CPSECapstone/Flipted-Hydro"
                 link2="Figma"

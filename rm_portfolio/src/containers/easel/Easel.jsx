@@ -15,7 +15,7 @@ const Easel = () => {
                     learning at the collegiate level. With Easel, we aim to bring structure to the traditional 
                     LMS model and use user-centered design principles to give students peace of mind and allow 
                     them to stay on top of their academics at a time where it is increasingly difficult to do so."
-                skills="AdobeXD, UX Research, Human-Centered Interface Design"
+                skills="SKILLS USED: AdobeXD, UX Research, Human-Centered Interface Design"
                 link1="Case Study"
                 url1="https://drive.google.com/file/d/1B_T_SVryws43AZAb0qWblRMfLTYey_r5/view"
                 link2="Prototype"

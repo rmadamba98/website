@@ -15,6 +15,8 @@ const CPrompt = () => {
                 desc2="Easel"
                 proj1=<FliptEd />
                 proj2=<Easel />
+                intro1=""
+                intro2="Check out Ryan's most recent project"
             />
         </div>
     );
