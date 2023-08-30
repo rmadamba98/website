@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./prompt.css";
 import arrow from "../../assets/arrow.png";
+import circle from "../../assets/RM_circle.png";
+import { ScrollRotate } from "react-scroll-rotate";
 
 function Prompt(props) {
     const [projState, setProjState] = useState({
@@ -90,12 +92,20 @@ function Prompt(props) {
 
     return (
         <div className="rm__prompt">
+            <div className="rm__prompt-circle">
+                <div className="rm__prompt-bg">
+                    <ScrollRotate method={"perc"} loops={0.5}>
+                        <img src={circle} alt="circle"></img>
+                    </ScrollRotate>
+                </div>
+            </div>
             <div className="rm__prompt-text">{props.text}</div>
             <div className="rm__prompt-choices">
                 <div className="rm__prompt-choices-L">{btnState.button1}</div>
                 <div className="rm__prompt-choices-R">{btnState.button2}</div>
             </div>
             <div className="rm__prompt-intro">{projState.intro}</div>
+
             <div className="rm__prompt-arrow">{projState.arrow}</div>
             <div className="rm__prompt-project">{projState.proj}</div>
         </div>

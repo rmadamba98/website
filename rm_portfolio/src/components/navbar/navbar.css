@@ -13,5 +13,6 @@
             margin-bottom: -6rem;
             padding-top: 4rem;
             z-index: 1;
+            position: fixed;
             
 }

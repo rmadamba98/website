@@ -1,6 +1,7 @@
 .rm__prompt {
     background: #F2DABD;
     width: 100%;
+    
 }
 
 .rm__prompt img {
@@ -94,4 +95,14 @@
 
 .rm__prompt-project {
     background: #fff;
+}
+
+.rm__prompt-bg {
+    position: absolute;
+    top: 500px;
+    left: 60%;
+}
+
+.rm__prompt-circle {
+    position: relative;
 }

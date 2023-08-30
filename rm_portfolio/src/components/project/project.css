@@ -91,6 +91,7 @@
     line-height: normal;
     letter-spacing: 1.12px;
     margin-top: 50%;
+    cursor: pointer;
 }
 
 .rm__project-footer {
